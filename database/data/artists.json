@@ -1,0 +1,28 @@
+{
+    "artists": [
+        {
+            "name": "Vincent Van Gogh"
+        },
+        {
+            "name": "Claude Monet"
+        },
+        {
+            "name": "Gustav Klimt"
+        },
+        {
+            "name": "Pablo Picasso"
+        },
+        {
+            "name": "Francisco Goya"
+        },
+        {
+            "name": "Jean-Michel Basquiat"
+        },
+        {
+            "name": "Fernando Amorsolo"
+        },
+        {
+            "name": "Georgia O'Keeffe"
+        }
+    ]
+}

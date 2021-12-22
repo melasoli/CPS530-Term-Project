@@ -1,0 +1,106 @@
+{
+    "paintings": [
+        {
+            "title": "The Bedroom",
+            "creation": "1888",
+            "path": "https://micrio-cdn.vangoghmuseum.nl/ZKSPH/views/max/1280x1014.jpg",
+            "artist_id": 1
+        },
+        {
+            "title": "Farmhouse in Provence",
+            "creation": "1888",
+            "path": "https://media.nga.gov/iiif/51c369a2-cc20-43f6-8262-25877c4377eb/full/!740,560/0/default.jpg",
+            "artist_id": 1
+        },
+        {
+            "title": "Sunflowers",
+            "creation": "1889",
+            "path": "https://micrio-cdn.vangoghmuseum.nl/TZCqF/views/max/1280x1682.jpg",
+            "artist_id": 1
+        },
+        {
+            "title": "Water Lilies",
+            "creation": "1916",
+            "path": "https://www.claude-monet.com/images/paintings/water-lilies-claude-monet.jpg",
+            "artist_id": 2
+        },
+        {
+            "title": "Antibes, vue de la Salis",
+            "creation": "1888",
+            "path": "http://fondation-monet.com/wp-content/uploads/2021/01/Toile-Antibes.jpg",
+            "artist_id": 2
+        },
+        {
+            "title": "The Kiss",
+            "creation": "1907",
+            "path": "https://www.gustav-klimt.com/images/paintings/The-Kiss.jpg",
+            "artist_id": 3
+        },
+        {
+            "title": "Marie-Thérèse With A Garland",
+            "creation": "1937",
+            "path": "https://media.architecturaldigest.com/photos/6054f6d5b1a16752e2a94e24/master/pass/4%20%20%C2%A9%20akg-images%EF%80%A2Andre%CC%81%20Held%20%EF%80%A2%202019%20Estate%20of%20Pablo%20Picasso%20%EF%80%A2%20Artists%20Rights%20Society%20(ARS),%20New%20York.jpg",
+            "artist_id": 4
+        },
+        {
+            "title": "Le Rêve",
+            "creation": "1932",
+            "path": "https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/121b2142-52bd-4628-8486-1dbaa50860b6/fx1_lrg.jpg",
+            "artist_id": 4
+        },
+        {
+            "title": "Satan Devouring His Son",
+            "creation": "1819–1823",
+            "path": "https://www.artnews.com/wp-content/uploads/2021/04/Francisco_de_Goya_Saturno_devorando_a_su_hijo_1819-1823.jpg?w=1089",
+            "artist_id": 5
+        },
+        {
+            "title": "Witches' Sabbath",
+            "creation": "1978",
+            "path": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Francisco_de_Goya_y_Lucientes_-_Witches_Sabbath_-_Google_Art_Project.jpg",
+            "artist_id": 5
+        },
+        {
+            "title": "In Italian",
+            "creation": "1983",
+            "path": "https://artdecision.eu/wp-content/uploads/2018/12/image-6.png",
+            "artist_id": 6
+        },
+        {
+            "title": "Riding With Death",
+            "creation": "1988",
+            "path": "https://artdecision.eu/wp-content/uploads/2018/12/image-5.png",
+            "artist_id": 6
+        },
+        {
+            "title": "Afternoon meal of the rice workers",
+            "creation": "1951",
+            "path": "https://kahimyang.com/resources/Amorsolo/afternoon_meal_of_rice_workers.JPG",
+            "artist_id": 7
+        },
+        {
+            "title": "Landscape",
+            "creation": "1951",
+            "path": "https://kahimyang.com/resources/Amorsolo/landscape_1951.webp",
+            "artist_id": 7
+        },
+        {
+            "title": "Summer Days",
+            "creation": "1936",
+            "path": "https://learnodo-newtonic.com/wp-content/uploads/2015/09/Summer-Days-1936-Georgia-OKeeffe.webp",
+            "artist_id": 8
+        },
+        {
+            "title": "Light Coming on the Plains",
+            "creation": "1917",
+            "path": "https://artisticjunkie.com/wp-content/uploads/2018/10/Light-Coming-on-the-Plains-Georgia-O-Keeffe-Original-Paintings.jpg",
+            "artist_id": 8
+        },
+        {
+            "title": "Jimson Weed",
+            "creation": "1936",
+            "path": "https://artisticjunkie.com/wp-content/uploads/2018/10/Georgia-O-Keeffe-Flower-Paintings.jpg",
+            "artist_id": 8
+        }
+    ]
+}
