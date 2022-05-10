@@ -70,14 +70,14 @@ return [
         ],
 
 	'pgsql' => [
-	    'driver'   => 'pgsql',
-            'host'     => $host,
+	    'driver' => 'pgsql',
+            'host' => $host,
             'database' => $database,
             'username' => $username,
             'password' => $password,
-            'charset'  => 'utf8',
-            'prefix'   => '',
-            'schema'   => 'public',
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
 	],
 
 	'sqlsrv' => [
