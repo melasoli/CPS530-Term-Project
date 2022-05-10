@@ -2,12 +2,6 @@
 
 use Illuminate\Support\Str;
 
-$url = parse_url(getenv('DATABASE_URL'));
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
-
 return [
 
     /*
@@ -21,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'pgsql',
+    'default' => getenv('DB_CONNECTION'),
 
     /*
     |--------------------------------------------------------------------------
@@ -69,18 +63,22 @@ return [
             ]) : [],
         ],
 
-	'pgsql' => [
-	    'driver' => 'pgsql',
-            'host' => $host,
-            'database' => $database,
-            'username' => $username,
-            'password' => $password,
+        'pgsql' => [
+            'driver' => 'pgsql',
+            'url' => getenv('DATABASE_URL'),
+            'host' => getenv('DB_HOST'),
+            'port' => getenv('DB_PORT'),
+            'database' => getenv('DB_DATABASE'),
+            'username' => getenv('DB_USERNAME'),
+            'password' => getenv('DB_PASSWORD'),
             'charset' => 'utf8',
             'prefix' => '',
+            'prefix_indexes' => true,
             'schema' => 'public',
-	],
+            'sslmode' => 'prefer',
+        ],
 
-	'sqlsrv' => [
+        'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'localhost'),
