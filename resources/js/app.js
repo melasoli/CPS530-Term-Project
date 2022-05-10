@@ -7,6 +7,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue').default;
+Vue.component('example-component', require('./components/Gallery.vue').default);
 
 /**
  * The following block of code may be used to automatically register your
